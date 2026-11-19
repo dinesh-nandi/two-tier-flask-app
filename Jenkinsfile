@@ -26,8 +26,8 @@ pipeline {
         
         stage("Push to Docker Hub"){
             steps{
-                script{
-                    docker_push("dockerHubCreds","two-tier-flask-app")
+                script {
+                    docker_push("dockerHubCreds", "two-tier-flask-app")
                 }
             }
         }
