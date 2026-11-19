@@ -29,7 +29,6 @@ pipeline {
                 script{
                     docker_push("dockerHubCreds","two-tier-flask-app")
                 }
-                }
             }
         }
 
